@@ -475,7 +475,7 @@ button {
   cursor: pointer;
 }
 .form-checkbox-custom {
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   align-items: center;
   width: 16px;
@@ -591,6 +591,7 @@ button {
 .name-phone-email-svg {
   position: absolute;
   top: 50%;
+  left: 16px;
   margin-left: 16px;
   transform: translateY(-50%);
   fill: #2e2f42;
