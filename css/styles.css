@@ -474,7 +474,7 @@ button {
   color: #8e8f99;
   cursor: pointer;
 }
-.form-checkbox-custom-icon {
+.form-checkbox-custom {
   display: inline-flex;
   justify-content: center;
   align-items: center;
