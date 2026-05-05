@@ -422,7 +422,7 @@ button {
   transform: translate(-50%, -50%);
   width: 408px;
   min-height: 584px;
-  padding: 72px 24px;
+  padding: 72px 24px 24px 24px;
   background-color: #fcfcfc;
   border-radius: 4px;
   box-shadow:
@@ -475,7 +475,7 @@ button {
   cursor: pointer;
 }
 .form-checkbox-custom {
-  display: inline-flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   width: 16px;
@@ -591,7 +591,7 @@ button {
 .name-phone-email-svg {
   position: absolute;
   top: 50%;
-  left: 16px;
+  margin-left: 16px;
   transform: translateY(-50%);
   fill: #2e2f42;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
