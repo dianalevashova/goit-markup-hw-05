@@ -465,6 +465,7 @@ button {
   display: inline-flex;
   justify-content: center;
   align-items: center;
+  margin-right: 8px;
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -480,9 +481,9 @@ button {
   margin-bottom: 24px;
 }
 .form-label-checkbox {
-  display: flex;
+  /*display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 8px;*/
   font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
